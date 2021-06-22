@@ -1,10 +1,119 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
-
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  padding: 0;
+}
+.main-section {
+  background-image: linear-gradient(to bottom, #1C5380, #06365F);
+  position: absolute;
+  height: 45%;
+  background-size: cover;
+  z-index: -1;
+}
+.iphones {
+  width: 500px;
+  margin-left: 0;
+  padding-left: 0;
+}
+.insta {
+  width: 400px;
+}
+.surface-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+}
+.phones {
+  width: 800px;
+}
+.login-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.houselogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 160px;
+  border-style: solid, #07253d;
+  padding: 10px;
+  height: 40px;
+  background-color: #1C5380;
+  border-radius: 5%;
+}
+.houselogin h5 {
+  font-size: 25px;
+  color: white;
+}
+.houselogin img {
+  width: 35px;
+}
+.phones{
+  padding-left: 70px;
+  width: 700px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(frame.png);
+  background-repeat: no-repeat;
+  background-size: 770px;
+  width: 840px;
+  padding-left: 60px;
+  height: 465px;
+  margin-top: 30px;
+}
+.text h2 {
+  padding-top: 30px;
+  padding-top: 0;
+  font-size: 40px;
+  width: 420px;
+  color: #06365F;
+}
+.text p {
+  width: 620px;
+  font-size: 25px;
+}
+.app-stores {
+  padding-left: 90px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#apple {
+  width: 450px;
+}
+#google {
+  width: 450px;
+  padding-right: 40px;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 97%;
+  font-weight: 700;
+}
+ul a {
+  text-decoration: none;
+  color: #1C5380;
+}
+ul li {
+  padding: 75px 15px;
+  font-size: 17px;
+}
+#copy {
+  color: rgb(223, 222, 222);
 }
